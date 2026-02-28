@@ -18,7 +18,7 @@ const Navbar = () => {
                     position: 'fixed',
                     top: 0,
                     left: 0,
-                    width: '100vw',
+                    width: '100%',
                     height: '80px',
                     zIndex: 1000,
                     display: 'flex',

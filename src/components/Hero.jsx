@@ -54,17 +54,17 @@ const Hero = () => {
                     </span>
                 </motion.div>
                 <div style={{ overflow: 'hidden', display: 'flex' }}>
-                    <h1 style={{ fontSize: 'clamp(2.5rem, 10vw, 8rem)', lineHeight: 0.85, margin: 0, fontWeight: 700, letterSpacing: '-0.05em' }}>
+                    <h1 style={{ fontSize: 'clamp(1.8rem, 10vw, 8rem)', lineHeight: 0.85, margin: 0, fontWeight: 700, letterSpacing: '-0.05em' }}>
                         {"FRONTEND".split("").map((char, index) => <motion.span key={index} variants={item} style={{ display: 'inline-block' }}>{char}</motion.span>)}
                     </h1>
                 </div>
                 <div style={{ overflow: 'hidden', display: 'flex' }}>
-                    <h1 className="title-outline" style={{ fontSize: 'clamp(2.5rem, 10vw, 8rem)', lineHeight: 0.85, margin: 0, fontWeight: 700, letterSpacing: '-0.05em' }}>
+                    <h1 className="title-outline" style={{ fontSize: 'clamp(1.8rem, 9vw, 8rem)', lineHeight: 0.85, margin: 0, fontWeight: 700, letterSpacing: '-0.05em' }}>
                         {"DEVELOPER &".split("").map((char, index) => <motion.span key={index} variants={item} style={{ display: 'inline-block', whiteSpace: 'break-spaces' }}>{char}</motion.span>)}
                     </h1>
                 </div>
                 <div style={{ overflow: 'hidden', display: 'flex' }}>
-                    <h1 style={{ fontSize: 'clamp(3rem, 10vw, 8rem)', lineHeight: 0.85, margin: 0, fontWeight: 700, letterSpacing: '-0.05em' }}>
+                    <h1 style={{ fontSize: 'clamp(1.6rem, 9vw, 8rem)', lineHeight: 0.85, margin: 0, fontWeight: 700, letterSpacing: '-0.05em' }}>
                         {"WEB DESIGNER".split("").map((char, index) => <motion.span key={index} variants={item} style={{ display: 'inline-block', whiteSpace: 'break-spaces' }}>{char}</motion.span>)}
                     </h1>
                 </div>

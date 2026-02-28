@@ -45,6 +45,7 @@ const Skills = () => {
                     {skillCategories.map((category, index) => (
                         <motion.div
                             key={index}
+                            className="skill-card"
                             initial={{ opacity: 0, scale: 0.95 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 const ExperienceItem = ({ year, title, company, description }) => {
     return (
         <motion.div
+            className="experience-item-card"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
@@ -116,6 +117,12 @@ const Experience = () => {
                         position: relative !important;
                         top: 0 !important;
                         margin-bottom: 2rem;
+                    }
+                    .experience-item-card {
+                        padding: 1.5rem !important;
+                    }
+                    .experience-item-card h3 {
+                        font-size: 1.8rem !important;
                     }
                 }
             `}} />
